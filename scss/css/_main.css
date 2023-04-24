@@ -1,0 +1,19 @@
+.main .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main .head .box_icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.main .head .box_icon .icon {
+  width: auto;
+  height: 7vw;
+  margin-left: 1vw;
+}
+.main .head .box_icon .text {
+  width: auto;
+  height: 7vw;
+}

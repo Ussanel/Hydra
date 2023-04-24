@@ -1,3 +1,78 @@
+.main .head .box_btn, .main .head .box_center span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.main .head {
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .head .box_icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main .head .box_icon .icon {
+  width: 7vw;
+  height: auto;
+  margin-right: 1.5vw;
+}
+.main .head .box_icon .text {
+  width: 7vw;
+  height: auto;
+}
+.main .head .box_center {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+.main .head .box_center span {
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.main .head .box_btn {
+  display: flex;
+  justify-content: space-between;
+}
+.main .head .box_btn .left_btn {
+  height: 3.3vw;
+  padding: 1vw 2.5vw;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  margin-right: 2.5vw;
+  color: #FFFFFF;
+}
+.main .head .box_btn .right_btn {
+  height: 3.3vw;
+  padding: 1vw 2.5vw;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+  color: #343045;
+}
+.main .center .left .subtitle {
+  width: 30vw;
+}
+.main .head .box_center span, .main .head .box_btn {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
-  background-color: red;
+  margin: 4vw 5vw 4vw 6.25vw;
+  height: 100vh;
+  background: #302C42;
 }

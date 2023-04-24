@@ -1,34 +1,89 @@
+@import'_template';
 .main{
+
   .head{
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
     .box_icon{
-      .icon{}
-      .text{}
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .icon{
+        width: 7vw;
+        height: auto;
+        margin-right: 1.5vw;
     }
+      .text{
+        width: 7vw;
+        height: auto;
+      }
+    }
+
+
     .box_center{
+      width: 30vw;
+      display: flex;
+      justify-content: space-between;
 
+      span{
+        text-transform: uppercase;
+        @extend %Montnorm7001215;
+        color: #FFFFFF;
+      }
     }
-    .box_btn{
-      .left_btn{
 
+
+    .box_btn{
+      display: flex;
+      justify-content: space-between;
+      @extend %Montnorm7001215;
+      .left_btn{
+        height: 3.3vw;
+        // width: 10.7vw;
+        padding: 1vw 2.5vw;
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        margin-right: 2.5vw;
+        color: #FFFFFF;
       }
       .right_btn{
-
+        // width: 10.7vw;
+        height: 3.3vw;
+        padding: 1vw 2.5vw;
+        background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+        border-radius: 40px;
+        color: #343045;
       }
 
     }
   }
-  .center{
-    .left{
-      .title{}
-      .subtitle{}
-      .build_btn{}
-      .arrow{}
-    }
-    .right{}
+
+
+
+
+   .center{
+     .left{
+       .title{}
+       .subtitle{
+        width: 30vw;
+       }
+       .build_btn{}
+       .arrow{}
+     }
+     .right{}
+   }
+   .carts{
+.first{}
+.second{}
+.three{}
+   }
   }
-  .carts{
-    .first{}
-    .second{}
-    .three{}
-  }
-}
+
+ 
+
+
+

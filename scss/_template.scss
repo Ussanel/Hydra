@@ -1,4 +1,4 @@
-// МІксини і шаблони@mixin _350 {
+// МІксини, змінні шаблони@mixin _350 {
 //     @media screen and (max-width: 350px) {
 //       @content
 //   }
@@ -11,3 +11,9 @@
 // %light_blue{ color: #46B1DE;}
  
 
+%Montnorm7001215 {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;}
