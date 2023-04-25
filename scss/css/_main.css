@@ -1,19 +1,72 @@
+.main .center .left .subtitle, .main .center .left .title, .main .head .box_btn, .main .head .box_center span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
 .main .head {
+  height: max-content;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 .main .head .box_icon {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
 }
 .main .head .box_icon .icon {
-  width: auto;
-  height: 7vw;
-  margin-left: 1vw;
+  width: 7vw;
+  height: auto;
+  margin-right: 1.5vw;
 }
 .main .head .box_icon .text {
-  width: auto;
-  height: 7vw;
+  width: 7vw;
+  height: auto;
+}
+.main .head .box_center {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+.main .head .box_center span {
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.main .head .box_btn {
+  display: flex;
+  justify-content: space-between;
+}
+.main .head .box_btn .left_btn {
+  height: 3.3vw;
+  padding: 1vw 2.5vw;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  margin-right: 2.5vw;
+  color: #FFFFFF;
+}
+.main .head .box_btn .right_btn {
+  height: 3.3vw;
+  padding: 1vw 2.5vw;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+  color: #343045;
+}
+.main .center .left {
+  width: 31.6vw;
+}
+.main .center .left .title {
+  font-size: 46px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+.main .center .left .title color-title {
+  color: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+}
+.main .center .left .subtitle {
+  font-size: 46px;
+  line-height: 56px;
+  color: #FFFFFF;
 }
