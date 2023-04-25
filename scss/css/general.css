@@ -1,19 +1,51 @@
-.main .center .left .build_btn span, .main .center .left .title, .main .head .box_btn, .main .head .box_center span, .main .carts .three .box_three .carts_title, .main .carts .second .box_second .carts_title, .main .carts .first .box_first .carts_title {
+.main .center .left .title, .main .head .box_btn .left_btn, .main .head .box_center span, .about .box_right h2, .about .box_left h1, .main .carts .three .box_three .carts_title, .main .carts .second .box_second .carts_title, .main .carts .first .box_first .carts_title, .about .box_right .box_btn_about, .main .center .left .build_btn span, .main .head .box_btn .right_btn {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
-.main .center .left .subtitle {
+.about .box_right p, .main .center .left .subtitle {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  color: #FFFFFF;
 }
 
-.main .center .left .build_btn span, .main .head .box_btn .right_btn {
+.about .box_right .subh2 span, .about .box_left .subh1 span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.about .box_right .box_btn_about, .main .center .left .build_btn span, .main .head .box_btn .right_btn {
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+.main .head .box_btn .right_btn {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  padding: 1vw 0vw;
+  border-radius: 40px;
+  color: #343045;
+  height: 3.3vw;
+  width: 10.7vw;
+}
+
+.about .box_right .box_btn_about, .main .center .left .build_btn span {
+  font-size: 12px;
+  line-height: 15px;
+  height: 3.3vw;
+  text-align: center;
+  padding: 1vw 0vw;
+  border-radius: 40px;
+  color: #343045;
+  height: 3.3vw;
+  width: 14.8vw;
 }
 
 .main .center .left .title .color-title {
@@ -37,6 +69,23 @@
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+}
+
+.about .box_right h2, .about .box_left h1 {
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.about .box_right .subh2, .about .box_left .subh1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2vw;
+  color: rgba(255, 255, 255, 0.95);
+}
+.about .box_right .subh2 span, .about .box_left .subh1 span {
+  margin-right: 2vw;
 }
 
 .main .head {
@@ -74,24 +123,18 @@
 .main .head .box_btn {
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
-  line-height: 15px;
 }
 .main .head .box_btn .left_btn {
+  font-size: 12px;
+  line-height: 15px;
   height: 3.3vw;
+  width: 11vw;
   text-align: center;
-  padding: 1vw 2.5vw;
+  padding: 1vw 0vw;
   border: 2px solid #FFFFFF;
   border-radius: 40px;
   margin-right: 2.5vw;
   color: #FFFFFF;
-}
-.main .head .box_btn .right_btn {
-  height: 3.3vw;
-  text-align: center;
-  padding: 1vw 2.5vw;
-  border-radius: 40px;
-  color: #343045;
 }
 .main .center {
   display: flex;
@@ -106,7 +149,6 @@
   color: #FFFFFF;
 }
 .main .center .left .subtitle {
-  color: #FFFFFF;
   margin: 2.5vw 0;
 }
 .main .center .left .build_btn {
@@ -115,14 +157,7 @@
   align-items: center;
 }
 .main .center .left .build_btn span {
-  width: 15.8vw;
-  text-align: center;
-  padding: 1vw 0vw;
-  border-radius: 40px;
   margin-right: 1vw;
-  font-size: 12px;
-  line-height: 15px;
-  color: #343045;
 }
 .main .center .left img {
   width: 7vw;
@@ -143,9 +178,10 @@
   height: 11.5vw;
   background-image: url(/picture/back_carts.png);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 6vw;
+  margin-bottom: 5.8vw;
 }
 .main .carts .first {
   display: flex;
@@ -224,22 +260,54 @@
   left: -6.25vw;
 }
 
-.main .head .box_center span, .main .head .box_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title {
+.about .box_right .box_btn_about, .about .box_right h2, .about .box_left h1, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
-.main .center .left .subtitle {
+.about .box_right p, .main .center .left .subtitle {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  color: #FFFFFF;
 }
 
-.main .head .box_btn .right_btn, .main .center .left .build_btn span {
+.about .box_right .subh2 span, .about .box_left .subh1 span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.about .box_right .box_btn_about, .main .head .box_btn .right_btn, .main .center .left .build_btn span {
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+.main .head .box_btn .right_btn {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  padding: 1vw 0vw;
+  border-radius: 40px;
+  color: #343045;
+  height: 3.3vw;
+  width: 10.7vw;
+}
+
+.about .box_right .box_btn_about, .main .center .left .build_btn span {
+  font-size: 12px;
+  line-height: 15px;
+  height: 3.3vw;
+  text-align: center;
+  padding: 1vw 0vw;
+  border-radius: 40px;
+  color: #343045;
+  height: 3.3vw;
+  width: 14.8vw;
 }
 
 .main .center .left .title .color-title {
@@ -265,22 +333,116 @@
   color: #FFFFFF;
 }
 
-.main .head .box_center span, .main .head .box_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title {
+.about .box_right h2, .about .box_left h1 {
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.about .box_right .subh2, .about .box_left .subh1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2vw;
+  color: rgba(255, 255, 255, 0.95);
+}
+.about .box_right .subh2 span, .about .box_left .subh1 span {
+  margin-right: 2vw;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 7.7vw;
+  position: relative;
+}
+.about .box_vector_about .vector7 {
+  position: absolute;
+  left: -6vw;
+  top: 14vw;
+  transform: scale(1.1, 1);
+}
+.about .box_vector_about .vector8 {
+  position: absolute;
+  left: -6vw;
+  top: 40vw;
+  transform: scale(1.1, 1);
+}
+.about .box_left h1 {
+  margin-bottom: 1vw;
+}
+.about .box_left .subh1 img {
+  z-index: -10;
+  transform: translate(0%, -25%);
+}
+.about .box_left .foto_mask_men {
+  width: 36.3vw;
+  height: 38.6vw;
+}
+.about .box_right {
+  width: 44.5vw;
+}
+.about .box_right .top_text {
+  margin-bottom: 10.5vw;
+}
+.about .box_right .botton_text {
+  margin-bottom: 3vw;
+}
+.about .box_right h2 {
+  margin-bottom: 1vw;
+}
+.about .box_right .subh2 {
+  margin-bottom: 3vw;
+}
+.main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
-.main .center .left .subtitle {
+.main .center .left .subtitle, .about .box_right p {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  color: #FFFFFF;
 }
 
-.main .head .box_btn .right_btn, .main .center .left .build_btn span {
+.about .box_left .subh1 span, .about .box_right .subh2 span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.main .head .box_btn .right_btn, .main .center .left .build_btn span, .about .box_right .box_btn_about {
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+.main .head .box_btn .right_btn {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  padding: 1vw 0vw;
+  border-radius: 40px;
+  color: #343045;
+  height: 3.3vw;
+  width: 10.7vw;
+}
+
+.main .center .left .build_btn span, .about .box_right .box_btn_about {
+  font-size: 12px;
+  line-height: 15px;
+  height: 3.3vw;
+  text-align: center;
+  padding: 1vw 0vw;
+  border-radius: 40px;
+  color: #343045;
+  height: 3.3vw;
+  width: 14.8vw;
 }
 
 .main .center .left .title .color-title {
@@ -304,6 +466,23 @@
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+}
+
+.about .box_left h1, .about .box_right h2 {
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.about .box_left .subh1, .about .box_right .subh2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2vw;
+  color: rgba(255, 255, 255, 0.95);
+}
+.about .box_left .subh1 span, .about .box_right .subh2 span {
+  margin-right: 2vw;
 }
 
 * {

@@ -1,2 +1,81 @@
 @import'_template';
 
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 7.7vw;
+  position: relative;
+
+  .box_vector_about {
+    .vector7 {
+      position: absolute;
+      left: -6vw;
+      top: 14vw;
+       transform: scale(1.1, 1)
+    }
+
+    .vector8 {
+      position: absolute;
+      left: -6vw;
+      top: 31vw; 
+      transform: scale(1.1, 1)
+    }
+  }
+
+  .box_left {
+
+
+    h1 {
+      @extend %title;
+      margin-bottom: 1vw
+    }
+
+    .subh1 {
+      @extend %subtitle;
+
+      img {
+        z-index: -10;
+        transform: translate(0%, -25%);
+      }
+
+    }
+
+    .foto_mask_men {
+      width: 36.3vw;
+      height: 38.6vw;
+    }
+  }
+
+
+  .box_right {
+    width: 44.5vw;
+
+    p {
+      @extend %Montnorm4001620white;
+    }
+
+    .top_text {
+      margin-bottom: 10.5vw;
+    }
+
+    .botton_text {
+      margin-bottom: 3vw;
+    }
+
+    h2 {
+      @extend %title;
+      margin-bottom: 1vw
+    }
+
+    .subh2 {
+      @extend %subtitle;
+      margin-bottom: 3vw;
+    }
+
+    .box_btn_about {
+      @extend %btngradientbig;
+    }
+
+  }
+}

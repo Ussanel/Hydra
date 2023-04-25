@@ -46,16 +46,17 @@
     .box_btn {
       display: flex;
       justify-content: space-between;
-      @extend %Montnorm700;
-      font-size: 12px;
-      line-height: 15px;
+     
       ;
 
       .left_btn {
+        @extend %Montnorm700;
+        font-size: 12px;
+        line-height: 15px;
         height: 3.3vw;
-        // width: 10.7vw;
+        width: 11vw;
         text-align: center;
-        padding: 1vw 2.5vw;
+        padding: 1vw 0vw;
         border: 2px solid #FFFFFF;
         border-radius: 40px;
         margin-right: 2.5vw;
@@ -63,13 +64,7 @@
       }
 
       .right_btn {
-        // width: 10.7vw;
-        height: 3.3vw;
-        text-align: center;
-        padding: 1vw 2.5vw;
-        @extend %Backgradient;
-        border-radius: 40px;
-        color: #343045;
+        @extend %btngradientsmall;
       }
 
     }
@@ -95,8 +90,7 @@
 
 
       .subtitle {
-        @extend %Montnorm4001620;
-        color: #FFFFFF;
+        @extend %Montnorm4001620white;
         margin: 2.5vw 0;
       }
 
@@ -106,16 +100,8 @@
         align-items: center;
 
         span {
-          width: 15.8vw;
-          text-align: center;
-          padding: 1vw 0vw;
-          @extend %Backgradient;
-          border-radius: 40px;
+          @extend %btngradientbig;
           margin-right: 1vw;
-          @extend %Montnorm700;
-          font-size: 12px;
-          line-height: 15px;
-          color: #343045;
         }
       }
 
@@ -147,6 +133,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 6vw;
+    margin-bottom: 5.8vw;
 
     .first {
       display: flex;

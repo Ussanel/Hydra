@@ -9,46 +9,113 @@
 //   font-size: $size;
 // }
 // %light_blue{ color: #46B1DE;}
- 
 
+// Font style
 %Montnorm700 {
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+// text
+%Montnorm4001620white {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF
 }
 
-%Montnorm4001620{
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
+%Montnorm3003644 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
 }
+
+// font style
+
 
 // @extend %Backgradient;
-%Backgradient
-{background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%)}
+%Backgradient {
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%)
+}
+
+// @extend %btngradientsmall;
+%btngradientsmall {
+  @extend %Montnorm700;
+  font-size: 12px;
+  line-height: 15px;
+  @extend %Backgradient;
+  text-align: center;
+  padding: 1vw 0vw;
+  border-radius: 40px;
+  color: #343045;
+  height: 3.3vw;
+  width: 10.7vw;
+}
+
+// @extend %btngradientbig;
+%btngradientbig {
+  @extend %Montnorm700;
+  font-size: 12px;
+  line-height: 15px;
+  @extend %Backgradient;
+  height: 3.3vw;
+  text-align: center;
+  padding: 1vw 0vw;
+  border-radius: 40px;
+  color: #343045;
+  height: 3.3vw;
+  width: 14.8vw;
+}
 
 // @extend %Colortextgradient;
-%Colortextgradient
-{background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+%Colortextgradient {
+  background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;}
+  background-clip: text;
+}
 
-  // @extend %stylecartstitle
-  %stylecartstitle {
-@extend %Montnorm700 ;
-font-size: 24px;
-line-height: 29px;
-color: #FFFFFF;
-margin-bottom: 1vw;}
+// @extend %stylecartstitle
+%stylecartstitle {
+  @extend %Montnorm700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 1vw;
+}
 
 // @extend %stylecartspan
-%stylecartspan{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #FFFFFF;}
+%stylecartspan {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+// @extend %title
+%title {
+  @extend %Montnorm700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+// @extend %subtitle 
+%subtitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2vw;
+  color: rgba(255, 255, 255, 0.95);
+
+  span {
+    @extend %Montnorm3003644;
+    margin-right: 2vw;
+  }
+}
