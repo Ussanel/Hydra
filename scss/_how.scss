@@ -1,2 +1,66 @@
 @import'_template';
 
+.how {
+
+  .box_head_how {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8.3vw;
+
+    .how_left {
+      h4 {
+        @extend %title;
+        margin-bottom: 1vw
+      }
+
+      .subh4 {
+        @extend %subtitle;
+
+        img {
+          z-index: -10;
+          transform: translate(0%, -25%);
+        }
+      }
+
+
+    }
+
+    .how_right {
+      p {
+        width: 44.5vw;
+        @extend %Montnorm4001620white
+      }
+    }
+  }
+
+  .box_circle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(/picture/Vector15.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    transform: translate(-6vw, 0);
+
+    .gap_circle{
+      @extend %bigCircleGradient
+    }
+  }
+
+  .gap_table{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: 100%;
+    width: 100vw;
+    transform: translate(-6vw, 0);
+    
+
+    .gap{
+      @extend %textundercircle 
+    }
+  }
+
+}

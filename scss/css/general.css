@@ -1,7 +1,7 @@
 .main .center .left .title, .main .head .box_btn .left_btn, .main .head .box_center span, .why .box_case .case1 h4,
 .why .box_case .case2 h4,
 .why .box_case .case3 h4,
-.why .box_case .case4 h4, .tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_right h2, .about .box_left h1, .main .carts .three .box_three .carts_title, .main .carts .second .box_second .carts_title, .main .carts .first .box_first .carts_title, .about .box_right .box_btn_about, .main .center .left .build_btn span, .main .head .box_btn .right_btn, .why .box_case .case1 .btn_case,
+.why .box_case .case4 h4, .how .box_head_how .how_left h4, .tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_right h2, .about .box_left h1, .main .carts .three .box_three .carts_title, .main .carts .second .box_second .carts_title, .main .carts .first .box_first .carts_title, .about .box_right .box_btn_about, .main .center .left .build_btn span, .main .head .box_btn .right_btn, .why .box_case .case1 .btn_case,
 .why .box_case .case2 .btn_case,
 .why .box_case .case3 .btn_case,
 .why .box_case .case4 .btn_case {
@@ -10,7 +10,7 @@
   font-weight: 700;
 }
 
-.why .box_head_why .head_right p, .about .box_right p, .main .center .left .subtitle {
+.how .box_head_how .how_right p, .why .box_head_why .head_right p, .about .box_right p, .main .center .left .subtitle {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -31,7 +31,7 @@
   color: #FFFFFF;
 }
 
-.tech .tech_head_title .sub_head_title span, .why .box_head_why .head_left .subh3 span, .about .box_right .subh2 span, .about .box_left .subh1 span {
+.tech .tech_head_title .sub_head_title span, .how .box_head_how .how_left .subh4 span, .why .box_head_why .head_left .subh3 span, .about .box_right .subh2 span, .about .box_left .subh1 span {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -95,20 +95,20 @@
   color: #FFFFFF;
 }
 
-.tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_right h2, .about .box_left h1 {
+.how .box_head_how .how_left h4, .tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_right h2, .about .box_left h1 {
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
 }
 
-.why .box_head_why .head_left .subh3, .about .box_right .subh2, .about .box_left .subh1 {
+.how .box_head_how .how_left .subh4, .why .box_head_why .head_left .subh3, .about .box_right .subh2, .about .box_left .subh1 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 2vw;
   color: rgba(255, 255, 255, 0.95);
 }
-.why .box_head_why .head_left .subh3 span, .about .box_right .subh2 span, .about .box_left .subh1 span {
+.how .box_head_how .how_left .subh4 span, .why .box_head_why .head_left .subh3 span, .about .box_right .subh2 span, .about .box_left .subh1 span {
   margin-right: 2vw;
 }
 
@@ -166,6 +166,45 @@
   width: 17.3vw;
   height: 4vw;
 }
+.how .box_circle .gap_circle {
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  text-align: center;
+  width: 13.7vw;
+  height: 13.7vw;
+}
+.how .box_circle .gap_circle div {
+  width: 11vw;
+  height: 11vw;
+  transform: translate(13%, 12%);
+  background-image: url(/picture/Ellipse_big_gradient.png);
+}
+.how .box_circle .gap_circle div span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .gap_table .gap {
+  width: 13.7vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.how .gap_table .gap P {
+  white-space: pre;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
 .main .head {
   height: max-content;
   display: flex;
@@ -255,6 +294,8 @@
 .main .carts {
   height: 11.5vw;
   background-image: url(/picture/back_carts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -321,24 +362,28 @@
   position: absolute;
   top: 12vw;
   right: -5vw;
+  z-index: -30;
 }
 .main .box_vector .vector2 {
   position: absolute;
   top: -4vw;
   right: 3vw;
+  z-index: -30;
 }
 .main .box_vector .vector3 {
   position: absolute;
   top: 29vw;
   right: -7vw;
+  z-index: -30;
 }
 .main .vector4 {
   position: absolute;
   top: 15vw;
   left: -6.25vw;
+  z-index: -30;
 }
 
-.about .box_right .box_btn_about, .tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_right h2, .about .box_left h1, .why .box_case .case1 h4,
+.about .box_right .box_btn_about, .how .box_head_how .how_left h4, .tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_right h2, .about .box_left h1, .why .box_case .case1 h4,
 .why .box_case .case2 h4,
 .why .box_case .case3 h4,
 .why .box_case .case4 h4, .why .box_case .case1 .btn_case,
@@ -350,7 +395,7 @@
   font-weight: 700;
 }
 
-.why .box_head_why .head_right p, .about .box_right p, .main .center .left .subtitle {
+.how .box_head_how .how_right p, .why .box_head_why .head_right p, .about .box_right p, .main .center .left .subtitle {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -371,7 +416,7 @@
   color: #FFFFFF;
 }
 
-.tech .tech_head_title .sub_head_title span, .why .box_head_why .head_left .subh3 span, .about .box_right .subh2 span, .about .box_left .subh1 span {
+.tech .tech_head_title .sub_head_title span, .how .box_head_how .how_left .subh4 span, .why .box_head_why .head_left .subh3 span, .about .box_right .subh2 span, .about .box_left .subh1 span {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -435,20 +480,20 @@
   color: #FFFFFF;
 }
 
-.tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_right h2, .about .box_left h1 {
+.how .box_head_how .how_left h4, .tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_right h2, .about .box_left h1 {
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
 }
 
-.why .box_head_why .head_left .subh3, .about .box_right .subh2, .about .box_left .subh1 {
+.how .box_head_how .how_left .subh4, .why .box_head_why .head_left .subh3, .about .box_right .subh2, .about .box_left .subh1 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 2vw;
   color: rgba(255, 255, 255, 0.95);
 }
-.why .box_head_why .head_left .subh3 span, .about .box_right .subh2 span, .about .box_left .subh1 span {
+.how .box_head_how .how_left .subh4 span, .why .box_head_why .head_left .subh3 span, .about .box_right .subh2 span, .about .box_left .subh1 span {
   margin-right: 2vw;
 }
 
@@ -506,10 +551,49 @@
   width: 17.3vw;
   height: 4vw;
 }
+.how .box_circle .gap_circle {
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  text-align: center;
+  width: 13.7vw;
+  height: 13.7vw;
+}
+.how .box_circle .gap_circle div {
+  width: 11vw;
+  height: 11vw;
+  transform: translate(13%, 12%);
+  background-image: url(/picture/Ellipse_big_gradient.png);
+}
+.how .box_circle .gap_circle div span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .gap_table .gap {
+  width: 13.7vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.how .gap_table .gap P {
+  white-space: pre;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
 .about {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
+  justify-content: flex-start;
   margin-bottom: 7.7vw;
   position: relative;
 }
@@ -518,12 +602,17 @@
   left: -6vw;
   top: 14vw;
   transform: scale(1.1, 1);
+  z-index: -30;
 }
 .about .box_vector_about .vector8 {
   position: absolute;
   left: -6vw;
   top: 31vw;
   transform: scale(1.1, 1);
+  z-index: -30;
+}
+.about .box_left {
+  margin-right: 7.7vw;
 }
 .about .box_left h1 {
   margin-bottom: 1vw;
@@ -551,7 +640,7 @@
 .about .box_right .subh2 {
   margin-bottom: 3vw;
 }
-.tech .tech_head_title h2, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
+.how .box_head_how .how_left h4, .tech .tech_head_title h2, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
 .why .box_case .case2 h4,
 .why .box_case .case3 h4,
 .why .box_case .case4 h4, .why .box_case .case1 .btn_case,
@@ -563,7 +652,7 @@
   font-weight: 700;
 }
 
-.why .box_head_why .head_right p, .main .center .left .subtitle, .about .box_right p {
+.how .box_head_how .how_right p, .why .box_head_why .head_right p, .main .center .left .subtitle, .about .box_right p {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -584,7 +673,7 @@
   color: #FFFFFF;
 }
 
-.tech .tech_head_title .sub_head_title span, .why .box_head_why .head_left .subh3 span, .about .box_left .subh1 span, .about .box_right .subh2 span {
+.tech .tech_head_title .sub_head_title span, .how .box_head_how .how_left .subh4 span, .why .box_head_why .head_left .subh3 span, .about .box_left .subh1 span, .about .box_right .subh2 span {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -648,20 +737,20 @@
   color: #FFFFFF;
 }
 
-.tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_left h1, .about .box_right h2 {
+.how .box_head_how .how_left h4, .tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_left h1, .about .box_right h2 {
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
 }
 
-.why .box_head_why .head_left .subh3, .about .box_left .subh1, .about .box_right .subh2 {
+.how .box_head_how .how_left .subh4, .why .box_head_why .head_left .subh3, .about .box_left .subh1, .about .box_right .subh2 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 2vw;
   color: rgba(255, 255, 255, 0.95);
 }
-.why .box_head_why .head_left .subh3 span, .about .box_left .subh1 span, .about .box_right .subh2 span {
+.how .box_head_how .how_left .subh4 span, .why .box_head_why .head_left .subh3 span, .about .box_left .subh1 span, .about .box_right .subh2 span {
   margin-right: 2vw;
 }
 
@@ -719,6 +808,45 @@
   width: 17.3vw;
   height: 4vw;
 }
+.how .box_circle .gap_circle {
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  text-align: center;
+  width: 13.7vw;
+  height: 13.7vw;
+}
+.how .box_circle .gap_circle div {
+  width: 11vw;
+  height: 11vw;
+  transform: translate(13%, 12%);
+  background-image: url(/picture/Ellipse_big_gradient.png);
+}
+.how .box_circle .gap_circle div span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .gap_table .gap {
+  width: 13.7vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.how .gap_table .gap P {
+  white-space: pre;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
 .why {
   margin-bottom: 8vw;
 }
@@ -744,13 +872,14 @@
 .why .box_vector_why .vector14 {
   position: absolute;
   left: -6vw;
+  z-index: -30;
 }
 .why .box_case {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-.tech .tech_head_title h2, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
+.how .box_head_how .how_left h4, .tech .tech_head_title h2, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
 .why .box_case .case2 h4,
 .why .box_case .case3 h4,
 .why .box_case .case4 h4, .why .box_case .case1 .btn_case,
@@ -762,7 +891,7 @@
   font-weight: 700;
 }
 
-.main .center .left .subtitle, .about .box_right p, .why .box_head_why .head_right p {
+.how .box_head_how .how_right p, .main .center .left .subtitle, .about .box_right p, .why .box_head_why .head_right p {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -783,7 +912,7 @@
   color: #FFFFFF;
 }
 
-.tech .tech_head_title .sub_head_title span, .about .box_left .subh1 span, .about .box_right .subh2 span, .why .box_head_why .head_left .subh3 span {
+.tech .tech_head_title .sub_head_title span, .how .box_head_how .how_left .subh4 span, .about .box_left .subh1 span, .about .box_right .subh2 span, .why .box_head_why .head_left .subh3 span {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -847,20 +976,20 @@
   color: #FFFFFF;
 }
 
-.tech .tech_head_title h2, .about .box_left h1, .about .box_right h2, .why .box_head_why .head_left h3 {
+.how .box_head_how .how_left h4, .tech .tech_head_title h2, .about .box_left h1, .about .box_right h2, .why .box_head_why .head_left h3 {
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
 }
 
-.about .box_left .subh1, .about .box_right .subh2, .why .box_head_why .head_left .subh3 {
+.how .box_head_how .how_left .subh4, .about .box_left .subh1, .about .box_right .subh2, .why .box_head_why .head_left .subh3 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 2vw;
   color: rgba(255, 255, 255, 0.95);
 }
-.about .box_left .subh1 span, .about .box_right .subh2 span, .why .box_head_why .head_left .subh3 span {
+.how .box_head_how .how_left .subh4 span, .about .box_left .subh1 span, .about .box_right .subh2 span, .why .box_head_why .head_left .subh3 span {
   margin-right: 2vw;
 }
 
@@ -918,8 +1047,48 @@
   width: 17.3vw;
   height: 4vw;
 }
+.how .box_circle .gap_circle {
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  text-align: center;
+  width: 13.7vw;
+  height: 13.7vw;
+}
+.how .box_circle .gap_circle div {
+  width: 11vw;
+  height: 11vw;
+  transform: translate(13%, 12%);
+  background-image: url(/picture/Ellipse_big_gradient.png);
+}
+.how .box_circle .gap_circle div span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .gap_table .gap {
+  width: 13.7vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.how .gap_table .gap P {
+  white-space: pre;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
 .tech {
   margin-top: 4vw;
+  margin-bottom: 4.5vw;
   position: relative;
 }
 .tech .tech_head_title {
@@ -931,8 +1100,8 @@
 }
 .tech .tech_head_title .box_tech_head_title {
   position: absolute;
-  top: 25%;
-  left: 25%;
+  top: 14%;
+  left: 26%;
 }
 .tech .tech_head_title h2 {
   margin-bottom: 1vw;
@@ -969,7 +1138,7 @@
   align-items: center;
 }
 
-.main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
+.how .box_head_how .how_left h4, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
 .why .box_case .case2 h4,
 .why .box_case .case3 h4,
 .why .box_case .case4 h4, .why .box_case .case1 .btn_case,
@@ -981,7 +1150,7 @@
   font-weight: 700;
 }
 
-.main .center .left .subtitle, .about .box_right p, .why .box_head_why .head_right p {
+.how .box_head_how .how_right p, .main .center .left .subtitle, .about .box_right p, .why .box_head_why .head_right p {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1002,7 +1171,7 @@
   color: #FFFFFF;
 }
 
-.about .box_left .subh1 span, .about .box_right .subh2 span, .why .box_head_why .head_left .subh3 span, .tech .tech_head_title .sub_head_title span {
+.how .box_head_how .how_left .subh4 span, .about .box_left .subh1 span, .about .box_right .subh2 span, .why .box_head_why .head_left .subh3 span, .tech .tech_head_title .sub_head_title span {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -1066,20 +1235,20 @@
   color: #FFFFFF;
 }
 
-.about .box_left h1, .about .box_right h2, .why .box_head_why .head_left h3, .tech .tech_head_title h2 {
+.how .box_head_how .how_left h4, .about .box_left h1, .about .box_right h2, .why .box_head_why .head_left h3, .tech .tech_head_title h2 {
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
 }
 
-.about .box_left .subh1, .about .box_right .subh2, .why .box_head_why .head_left .subh3 {
+.how .box_head_how .how_left .subh4, .about .box_left .subh1, .about .box_right .subh2, .why .box_head_why .head_left .subh3 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 2vw;
   color: rgba(255, 255, 255, 0.95);
 }
-.about .box_left .subh1 span, .about .box_right .subh2 span, .why .box_head_why .head_left .subh3 span {
+.how .box_head_how .how_left .subh4 span, .about .box_left .subh1 span, .about .box_right .subh2 span, .why .box_head_why .head_left .subh3 span {
   margin-right: 2vw;
 }
 
@@ -1137,6 +1306,286 @@
   width: 17.3vw;
   height: 4vw;
 }
+.how .box_circle .gap_circle {
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  text-align: center;
+  width: 13.7vw;
+  height: 13.7vw;
+}
+.how .box_circle .gap_circle div {
+  width: 11vw;
+  height: 11vw;
+  transform: translate(13%, 12%);
+  background-image: url(/picture/Ellipse_big_gradient.png);
+}
+.how .box_circle .gap_circle div span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .gap_table .gap {
+  width: 13.7vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.how .gap_table .gap P {
+  white-space: pre;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.how .box_head_how {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8.3vw;
+}
+.how .box_head_how .how_left h4 {
+  margin-bottom: 1vw;
+}
+.how .box_head_how .how_left .subh4 img {
+  z-index: -10;
+  transform: translate(0%, -25%);
+}
+.how .box_head_how .how_right p {
+  width: 44.5vw;
+}
+.how .box_circle {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(/picture/Vector15.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  transform: translate(-6vw, 0);
+}
+.how .gap_table {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-size: 100%;
+  width: 100vw;
+  transform: translate(-6vw, 0);
+}
+.main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
+.why .box_case .case2 h4,
+.why .box_case .case3 h4,
+.why .box_case .case4 h4, .why .box_case .case1 .btn_case,
+.why .box_case .case2 .btn_case,
+.why .box_case .case3 .btn_case,
+.why .box_case .case4 .btn_case, .tech .tech_head_title h2, .how .box_head_how .how_left h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.main .center .left .subtitle, .about .box_right p, .why .box_head_why .head_right p, .how .box_head_how .how_right p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.why .box_case .case1 .text_case,
+.why .box_case .case2 .text_case,
+.why .box_case .case3 .text_case,
+.why .box_case .case4 .text_case {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.about .box_left .subh1 span, .about .box_right .subh2 span, .why .box_head_why .head_left .subh3 span, .tech .tech_head_title .sub_head_title span, .how .box_head_how .how_left .subh4 span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.main .head .box_btn .right_btn, .main .center .left .build_btn span, .about .box_right .box_btn_about, .why .box_case .case1 .btn_case,
+.why .box_case .case2 .btn_case,
+.why .box_case .case3 .btn_case,
+.why .box_case .case4 .btn_case {
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+.main .head .box_btn .right_btn, .why .box_case .case1 .btn_case,
+.why .box_case .case2 .btn_case,
+.why .box_case .case3 .btn_case,
+.why .box_case .case4 .btn_case {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  padding: 1vw 0vw;
+  border-radius: 40px;
+  color: #343045;
+  height: 3.3vw;
+  width: 10.7vw;
+}
+
+.main .center .left .build_btn span, .about .box_right .box_btn_about {
+  font-size: 12px;
+  line-height: 15px;
+  height: 3.3vw;
+  text-align: center;
+  padding: 1vw 0vw;
+  border-radius: 40px;
+  color: #343045;
+  height: 3.3vw;
+  width: 14.8vw;
+}
+
+.main .center .left .title .color-title {
+  background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title {
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 1vw;
+}
+
+.main .carts .first .box_first span, .main .carts .second .box_second span, .main .carts .three .box_three span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.about .box_left h1, .about .box_right h2, .why .box_head_why .head_left h3, .tech .tech_head_title h2, .how .box_head_how .how_left h4 {
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.about .box_left .subh1, .about .box_right .subh2, .why .box_head_why .head_left .subh3, .how .box_head_how .how_left .subh4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2vw;
+  color: rgba(255, 255, 255, 0.95);
+}
+.about .box_left .subh1 span, .about .box_right .subh2 span, .why .box_head_why .head_left .subh3 span, .how .box_head_how .how_left .subh4 span {
+  margin-right: 2vw;
+}
+
+.why .box_case .case1,
+.why .box_case .case2,
+.why .box_case .case3,
+.why .box_case .case4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 21.5vw;
+  height: 35.5vw;
+  padding: 1.3vw 2vw 2.5vw 2vw;
+  background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+  border-radius: 40px;
+}
+.why .box_case .case1 .box_case_img,
+.why .box_case .case2 .box_case_img,
+.why .box_case .case3 .box_case_img,
+.why .box_case .case4 .box_case_img {
+  background-image: url(/picture/Ellipse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15.2vw;
+  height: 15.2vw;
+}
+.why .box_case .case1 .box_case_img img,
+.why .box_case .case2 .box_case_img img,
+.why .box_case .case3 .box_case_img img,
+.why .box_case .case4 .box_case_img img {
+  width: 13.2vw;
+  height: 13.2vw;
+  margin: 1vw 1vw;
+}
+.why .box_case .case1 h4,
+.why .box_case .case2 h4,
+.why .box_case .case3 h4,
+.why .box_case .case4 h4 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.why .box_case .case1 .hrcase,
+.why .box_case .case2 .hrcase,
+.why .box_case .case3 .hrcase,
+.why .box_case .case4 .hrcase {
+  width: 10.5vw;
+  border: 1px solid rgba(192, 183, 232, 0.33);
+}
+.why .box_case .case1 .text_case,
+.why .box_case .case2 .text_case,
+.why .box_case .case3 .text_case,
+.why .box_case .case4 .text_case {
+  width: 17.3vw;
+  height: 4vw;
+}
+.how .box_circle .gap_circle {
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  text-align: center;
+  width: 13.7vw;
+  height: 13.7vw;
+}
+.how .box_circle .gap_circle div {
+  width: 11vw;
+  height: 11vw;
+  transform: translate(13%, 12%);
+  background-image: url(/picture/Ellipse_big_gradient.png);
+}
+.how .box_circle .gap_circle div span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .gap_table .gap {
+  width: 13.7vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.how .gap_table .gap P {
+  white-space: pre;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
 * {
   margin: 0;
   padding: 0;
