@@ -16,6 +16,7 @@
   font-style: normal;
   font-weight: 700;
 }
+
 // text
 %Montnorm4001620white {
   font-family: 'Montserrat', sans-serif;
@@ -24,6 +25,15 @@
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF
+}
+
+%Montnorm4001215white {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
 }
 
 %Montnorm3003644 {
@@ -117,5 +127,58 @@
   span {
     @extend %Montnorm3003644;
     margin-right: 2vw;
+  }
+}
+
+
+// @extend %allstylecase 
+%allstylecase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 21.5vw;
+  height: 35.5vw;
+  padding: 1.3vw 2vw 2.5vw 2vw;
+  background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+  border-radius: 40px;
+
+  .box_case_img {
+    background-image: url(/picture/Ellipse.png);
+    background-position: center;
+    width: 15.2vw;
+      height: 15.2vw;
+
+    img {
+      width: 13.2vw;
+      height: 13.2vw;
+      margin: 1vw 1vw;
+    }
+  }
+
+
+
+  h4 {
+    @extend %Montnorm700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    // margin-bottom: 1vw;
+  }
+
+  .hrcase {
+    width: 10.5vw;
+    border: 1px solid rgba(192, 183, 232, 0.33);
+    // margin-bottom: 1.5vw;
+  }
+
+  .text_case {
+    @extend %Montnorm4001215white;
+    width: 17.3vw;
+    height: 4vw;
+  }
+
+  .btn_case {
+    @extend %btngradientsmall;
   }
 }

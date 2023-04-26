@@ -1,2 +1,56 @@
 @import'_template';
 
+.why {
+
+  .box_head_why {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5vw;
+
+    .head_left {
+      h3 {
+        @extend %title;
+        margin-bottom: 1vw
+      }
+
+      .subh3 {
+        @extend %subtitle;
+
+        img {
+          z-index: -10;
+          transform: translate(0%, -25%);
+        }
+      }
+
+    }
+
+    .head_right {
+      p {
+        width: 44.5vw;
+        @extend %Montnorm4001620white
+      }
+    }
+  }
+  .box_vector_why{
+    position: relative;
+    .vector14{
+      position: absolute;
+      left: -6vw;
+    }
+  }
+
+  .box_case {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .case1,
+    .case2,
+    .case3,
+    .case4 {
+      @extend %allstylecase 
+    }
+
+  }
+}
