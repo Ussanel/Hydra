@@ -1,0 +1,68 @@
+@import'_template';
+
+.tech {
+  margin-top: 4vw;
+  position: relative;
+
+  .tech_head_title {
+    height: 21vw;
+    background-image: url(/picture/Maskgroup_back_tech.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    .box_tech_head_title {
+      position: absolute;
+      top: 25%;
+      left: 25%;
+      
+    }
+
+    h2 {
+
+      @extend %title;
+      margin-bottom: 1vw;
+    }
+
+    .sub_head_title {
+      margin-bottom: 2vw;
+      color: rgba(255, 255, 255, 0.95);
+
+      span {
+        @extend %Montnorm3003644;
+      }
+    }
+  }
+
+  .btn_smallcicrle {
+    margin: 0 auto;
+    background-image: url(/picture/Ellipse_small_shadow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(0%, -50%);
+    width: 7vw;
+    height:7vw ;
+
+    .smallcicle {
+      background-image: url(/picture/Ellipse_cicrle_gradient.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 4.8vw;
+      height: 4.8vw;
+      transform: translate(23%,23%);
+
+      img {
+        width: 4.1vw;
+        height: 4.1vw;
+        transform: translate(8%, 10%);
+      }
+    }
+  }
+
+  .box_brand {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+}

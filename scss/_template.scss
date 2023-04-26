@@ -145,6 +145,7 @@
 
   .box_case_img {
     background-image: url(/picture/Ellipse.png);
+    background-repeat: no-repeat;
     background-position: center;
     width: 15.2vw;
       height: 15.2vw;
@@ -155,8 +156,6 @@
       margin: 1vw 1vw;
     }
   }
-
-
 
   h4 {
     @extend %Montnorm700;
