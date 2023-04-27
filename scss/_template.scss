@@ -17,6 +17,21 @@
   font-weight: 700;
 }
 
+%Montnorm7006478 {
+  @extend %Montnorm700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+%Montnorm7002429 {
+  @extend %Montnorm700;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
 // text
 %Montnorm4001620white {
   font-family: 'Montserrat', sans-serif;
@@ -182,47 +197,40 @@
   }
 }
 
-// @extend %bigCircleGradient
-%bigCircleGradient {
-  background-image: url(/picture/Ellipse_shadow_big.png);
-  background-repeat: no-repeat;
-  background-position: cover;
-  text-align: center;
-  width: 13.7vw;
-  height: 13.7vw;
+// @extend %CircleTextGradient
+%CircleTextGradient {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  div {
-    width: 11vw;
-    height: 11vw;
-    transform: translate(13%, 12%);
-    background-image: url(/picture/Ellipse_big_gradient.png);
+  .gap_circle {
 
-    span {
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 64px;
-      line-height: 78px;
-      color: #343045;
+    width: 13.7vw;
+    height: 13.7vw;
+    background-image: url(/picture/Ellipse_shadow_big.png);
+    background-repeat: no-repeat;
+    margin-bottom: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .num_circle {
+      width: 11vw;
+      height: 11vw;
+      background-image: url(/picture/Ellipse_big_gradient.png);
+      background-repeat: no-repeat;
+      @extend %Montnorm7006478;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 
-}
-
-// @extend %textundercircle
-%textundercircle {
-  width: 13.7vw;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-
-  P {
-    white-space: pre;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
+  .gap_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @extend %Montnorm7002429
   }
 }

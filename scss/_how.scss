@@ -34,32 +34,22 @@
     }
   }
 
-  .box_circle {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  .box_bottom_how {
     background-image: url(/picture/Vector15.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: top;
     width: 100vw;
     transform: translate(-6vw, 0);
 
-    .gap_circle{
-      @extend %bigCircleGradient
-    }
-  }
+    .box_circle {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
 
-  .gap_table{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-size: 100%;
-    width: 100vw;
-    transform: translate(-6vw, 0);
-    
-
-    .gap{
-      @extend %textundercircle 
+      .gap{
+        @extend %CircleTextGradient
+      }
     }
   }
 

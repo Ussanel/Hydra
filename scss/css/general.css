@@ -4,10 +4,23 @@
 .why .box_case .case4 h4, .how .box_head_how .how_left h4, .tech .tech_head_title h2, .why .box_head_why .head_left h3, .about .box_right h2, .about .box_left h1, .main .carts .three .box_three .carts_title, .main .carts .second .box_second .carts_title, .main .carts .first .box_first .carts_title, .about .box_right .box_btn_about, .main .center .left .build_btn span, .main .head .box_btn .right_btn, .why .box_case .case1 .btn_case,
 .why .box_case .case2 .btn_case,
 .why .box_case .case3 .btn_case,
-.why .box_case .case4 .btn_case {
+.why .box_case .case4 .btn_case, .how .box_bottom_how .box_circle .gap .gap_text, .how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
 }
 
 .how .box_head_how .how_right p, .why .box_head_why .head_right p, .about .box_right p, .main .center .left .subtitle {
@@ -166,43 +179,35 @@
   width: 17.3vw;
   height: 4vw;
 }
-.how .box_circle .gap_circle {
-  background-image: url(/picture/Ellipse_shadow_big.png);
-  background-repeat: no-repeat;
-  background-position: cover;
-  text-align: center;
-  width: 13.7vw;
-  height: 13.7vw;
-}
-.how .box_circle .gap_circle div {
-  width: 11vw;
-  height: 11vw;
-  transform: translate(13%, 12%);
-  background-image: url(/picture/Ellipse_big_gradient.png);
-}
-.how .box_circle .gap_circle div span {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 78px;
-  color: #343045;
-}
-
-.how .gap_table .gap {
-  width: 13.7vw;
+.how .box_bottom_how .box_circle .gap {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.how .gap_table .gap P {
-  white-space: pre;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: #FFFFFF;
+.how .box_bottom_how .box_circle .gap .gap_circle {
+  width: 13.7vw;
+  height: 13.7vw;
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  margin-bottom: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  width: 11vw;
+  height: 11vw;
+  background-image: url(/picture/Ellipse_big_gradient.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main .head {
@@ -389,10 +394,23 @@
 .why .box_case .case4 h4, .why .box_case .case1 .btn_case,
 .why .box_case .case2 .btn_case,
 .why .box_case .case3 .btn_case,
-.why .box_case .case4 .btn_case, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title {
+.why .box_case .case4 .btn_case, .how .box_bottom_how .box_circle .gap .gap_circle .num_circle, .how .box_bottom_how .box_circle .gap .gap_text, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
 }
 
 .how .box_head_how .how_right p, .why .box_head_why .head_right p, .about .box_right p, .main .center .left .subtitle {
@@ -551,43 +569,35 @@
   width: 17.3vw;
   height: 4vw;
 }
-.how .box_circle .gap_circle {
-  background-image: url(/picture/Ellipse_shadow_big.png);
-  background-repeat: no-repeat;
-  background-position: cover;
-  text-align: center;
-  width: 13.7vw;
-  height: 13.7vw;
-}
-.how .box_circle .gap_circle div {
-  width: 11vw;
-  height: 11vw;
-  transform: translate(13%, 12%);
-  background-image: url(/picture/Ellipse_big_gradient.png);
-}
-.how .box_circle .gap_circle div span {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 78px;
-  color: #343045;
-}
-
-.how .gap_table .gap {
-  width: 13.7vw;
+.how .box_bottom_how .box_circle .gap {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.how .gap_table .gap P {
-  white-space: pre;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: #FFFFFF;
+.how .box_bottom_how .box_circle .gap .gap_circle {
+  width: 13.7vw;
+  height: 13.7vw;
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  margin-bottom: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  width: 11vw;
+  height: 11vw;
+  background-image: url(/picture/Ellipse_big_gradient.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about {
@@ -601,14 +611,12 @@
   position: absolute;
   left: -6vw;
   top: 14vw;
-  transform: scale(1.1, 1);
   z-index: -30;
 }
 .about .box_vector_about .vector8 {
   position: absolute;
   left: -6vw;
   top: 31vw;
-  transform: scale(1.1, 1);
   z-index: -30;
 }
 .about .box_left {
@@ -646,10 +654,23 @@
 .why .box_case .case4 h4, .why .box_case .case1 .btn_case,
 .why .box_case .case2 .btn_case,
 .why .box_case .case3 .btn_case,
-.why .box_case .case4 .btn_case, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about {
+.why .box_case .case4 .btn_case, .how .box_bottom_how .box_circle .gap .gap_circle .num_circle, .how .box_bottom_how .box_circle .gap .gap_text, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
 }
 
 .how .box_head_how .how_right p, .why .box_head_why .head_right p, .main .center .left .subtitle, .about .box_right p {
@@ -808,43 +829,35 @@
   width: 17.3vw;
   height: 4vw;
 }
-.how .box_circle .gap_circle {
-  background-image: url(/picture/Ellipse_shadow_big.png);
-  background-repeat: no-repeat;
-  background-position: cover;
-  text-align: center;
-  width: 13.7vw;
-  height: 13.7vw;
-}
-.how .box_circle .gap_circle div {
-  width: 11vw;
-  height: 11vw;
-  transform: translate(13%, 12%);
-  background-image: url(/picture/Ellipse_big_gradient.png);
-}
-.how .box_circle .gap_circle div span {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 78px;
-  color: #343045;
-}
-
-.how .gap_table .gap {
-  width: 13.7vw;
+.how .box_bottom_how .box_circle .gap {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.how .gap_table .gap P {
-  white-space: pre;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: #FFFFFF;
+.how .box_bottom_how .box_circle .gap .gap_circle {
+  width: 13.7vw;
+  height: 13.7vw;
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  margin-bottom: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  width: 11vw;
+  height: 11vw;
+  background-image: url(/picture/Ellipse_big_gradient.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .why {
@@ -879,7 +892,7 @@
   justify-content: space-between;
   align-items: flex-start;
 }
-.how .box_head_how .how_left h4, .tech .tech_head_title h2, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
+.how .box_head_how .how_left h4, .tech .tech_head_title h2, .how .box_bottom_how .box_circle .gap .gap_circle .num_circle, .how .box_bottom_how .box_circle .gap .gap_text, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
 .why .box_case .case2 h4,
 .why .box_case .case3 h4,
 .why .box_case .case4 h4, .why .box_case .case1 .btn_case,
@@ -889,6 +902,19 @@
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
 }
 
 .how .box_head_how .how_right p, .main .center .left .subtitle, .about .box_right p, .why .box_head_why .head_right p {
@@ -1047,43 +1073,35 @@
   width: 17.3vw;
   height: 4vw;
 }
-.how .box_circle .gap_circle {
-  background-image: url(/picture/Ellipse_shadow_big.png);
-  background-repeat: no-repeat;
-  background-position: cover;
-  text-align: center;
-  width: 13.7vw;
-  height: 13.7vw;
-}
-.how .box_circle .gap_circle div {
-  width: 11vw;
-  height: 11vw;
-  transform: translate(13%, 12%);
-  background-image: url(/picture/Ellipse_big_gradient.png);
-}
-.how .box_circle .gap_circle div span {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 78px;
-  color: #343045;
-}
-
-.how .gap_table .gap {
-  width: 13.7vw;
+.how .box_bottom_how .box_circle .gap {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.how .gap_table .gap P {
-  white-space: pre;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: #FFFFFF;
+.how .box_bottom_how .box_circle .gap .gap_circle {
+  width: 13.7vw;
+  height: 13.7vw;
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  margin-bottom: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  width: 11vw;
+  height: 11vw;
+  background-image: url(/picture/Ellipse_big_gradient.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tech {
@@ -1138,7 +1156,7 @@
   align-items: center;
 }
 
-.how .box_head_how .how_left h4, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
+.how .box_head_how .how_left h4, .how .box_bottom_how .box_circle .gap .gap_circle .num_circle, .how .box_bottom_how .box_circle .gap .gap_text, .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
 .why .box_case .case2 h4,
 .why .box_case .case3 h4,
 .why .box_case .case4 h4, .why .box_case .case1 .btn_case,
@@ -1148,6 +1166,19 @@
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
 }
 
 .how .box_head_how .how_right p, .main .center .left .subtitle, .about .box_right p, .why .box_head_why .head_right p {
@@ -1306,43 +1337,35 @@
   width: 17.3vw;
   height: 4vw;
 }
-.how .box_circle .gap_circle {
-  background-image: url(/picture/Ellipse_shadow_big.png);
-  background-repeat: no-repeat;
-  background-position: cover;
-  text-align: center;
-  width: 13.7vw;
-  height: 13.7vw;
-}
-.how .box_circle .gap_circle div {
-  width: 11vw;
-  height: 11vw;
-  transform: translate(13%, 12%);
-  background-image: url(/picture/Ellipse_big_gradient.png);
-}
-.how .box_circle .gap_circle div span {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 78px;
-  color: #343045;
-}
-
-.how .gap_table .gap {
-  width: 13.7vw;
+.how .box_bottom_how .box_circle .gap {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.how .gap_table .gap P {
-  white-space: pre;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: #FFFFFF;
+.how .box_bottom_how .box_circle .gap .gap_circle {
+  width: 13.7vw;
+  height: 13.7vw;
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  margin-bottom: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  width: 11vw;
+  height: 11vw;
+  background-image: url(/picture/Ellipse_big_gradient.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .how .box_head_how {
@@ -1361,23 +1384,19 @@
 .how .box_head_how .how_right p {
   width: 44.5vw;
 }
-.how .box_circle {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+.how .box_bottom_how {
   background-image: url(/picture/Vector15.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: top;
   width: 100vw;
   transform: translate(-6vw, 0);
+  height: 50.4vw;
 }
-.how .gap_table {
+.how .box_bottom_how .box_circle {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-size: 100%;
-  width: 100vw;
-  transform: translate(-6vw, 0);
 }
 .main .head .box_center span, .main .head .box_btn .left_btn, .main .head .box_btn .right_btn, .main .center .left .title, .main .center .left .build_btn span, .main .carts .first .box_first .carts_title, .main .carts .second .box_second .carts_title, .main .carts .three .box_three .carts_title, .about .box_left h1, .about .box_right h2, .about .box_right .box_btn_about, .why .box_head_why .head_left h3, .why .box_case .case1 h4,
 .why .box_case .case2 h4,
@@ -1385,10 +1404,23 @@
 .why .box_case .case4 h4, .why .box_case .case1 .btn_case,
 .why .box_case .case2 .btn_case,
 .why .box_case .case3 .btn_case,
-.why .box_case .case4 .btn_case, .tech .tech_head_title h2, .how .box_head_how .how_left h4 {
+.why .box_case .case4 .btn_case, .tech .tech_head_title h2, .how .box_head_how .how_left h4, .how .box_bottom_how .box_circle .gap .gap_circle .num_circle, .how .box_bottom_how .box_circle .gap .gap_text {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  font-size: 64px;
+  line-height: 78px;
+  color: #343045;
+}
+
+.how .box_bottom_how .box_circle .gap .gap_text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
 }
 
 .main .center .left .subtitle, .about .box_right p, .why .box_head_why .head_right p, .how .box_head_how .how_right p {
@@ -1547,43 +1579,35 @@
   width: 17.3vw;
   height: 4vw;
 }
-.how .box_circle .gap_circle {
-  background-image: url(/picture/Ellipse_shadow_big.png);
-  background-repeat: no-repeat;
-  background-position: cover;
-  text-align: center;
-  width: 13.7vw;
-  height: 13.7vw;
-}
-.how .box_circle .gap_circle div {
-  width: 11vw;
-  height: 11vw;
-  transform: translate(13%, 12%);
-  background-image: url(/picture/Ellipse_big_gradient.png);
-}
-.how .box_circle .gap_circle div span {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 78px;
-  color: #343045;
-}
-
-.how .gap_table .gap {
-  width: 13.7vw;
+.how .box_bottom_how .box_circle .gap {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.how .gap_table .gap P {
-  white-space: pre;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: #FFFFFF;
+.how .box_bottom_how .box_circle .gap .gap_circle {
+  width: 13.7vw;
+  height: 13.7vw;
+  background-image: url(/picture/Ellipse_shadow_big.png);
+  background-repeat: no-repeat;
+  margin-bottom: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_circle .num_circle {
+  width: 11vw;
+  height: 11vw;
+  background-image: url(/picture/Ellipse_big_gradient.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.how .box_bottom_how .box_circle .gap .gap_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 * {
