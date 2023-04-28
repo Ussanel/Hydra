@@ -1,0 +1,26 @@
+.footer {
+  height: 24.5vw;
+  margin-top: 8vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+.footer .footer_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer_top .box_logo .logo {
+  width: 13vw;
+  height: auto;
+}
+.footer .footer_top .box_logo .hrline {
+  height: 100%;
+}
+.footer .footer_top .box_logo .list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
