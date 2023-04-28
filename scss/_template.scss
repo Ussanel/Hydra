@@ -1,4 +1,5 @@
-// МІксини, змінні шаблони@mixin _350 {
+// МІксини, змінні шаблони
+// @mixin _350 {
 //     @media screen and (max-width: 350px) {
 //       @content
 //   }
@@ -8,7 +9,6 @@
 //   font-weight:  $weight;
 //   font-size: $size;
 // }
-// %light_blue{ color: #46B1DE;}
 
 // Font style
 %Montnorm700 {

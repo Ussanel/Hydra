@@ -1,0 +1,10 @@
+@import'_template';
+@import'_general';
+
+// 1280 1024 960 768 640 480 390 320
+
+@mixin _1280 {
+      @media screen and (max-width: 1280px) {
+        @content
+    }
+  };
